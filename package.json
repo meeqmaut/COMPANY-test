@@ -9,7 +9,7 @@
     ]
   },
   "scripts": {
-    "siske": "node_modules/.bin/babel JSX/script.jsx -o JS/script.js -w"
+    "lal": "node_modules/.bin/babel JSX/script.jsx -o JS/script.js -w"
   },
   "dependencies": {
     "react-router-dom": "^4.1.1"

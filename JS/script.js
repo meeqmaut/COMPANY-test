@@ -156,7 +156,7 @@ class Row extends React.Component {
             React.createElement(
                 "td",
                 null,
-                "+daughters"
+                this.props.company.daughters_prft
             ),
             React.createElement(
                 "td",

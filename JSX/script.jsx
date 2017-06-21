@@ -119,7 +119,7 @@ class Row extends React.Component {
        return <tr>
             <td>{this.props.company.name}</td>
             <td>{this.props.company.profit}</td>
-            <td>+daughters</td>
+            <td>{this.props.company.daughters_prft}</td>
             <td><button  onClick = {() => this.props.show(this.props.company.id)}>View</button>
             <button onClick={() => this.props.onDelete(this.props.company.id)}>Delete</button></td>
             </tr>
